@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Section d'en-tête avec une forme -->
+    <header id="home">
+      <div class="overlay">
+        <div class="container">
+          <h1>Bienvenue sur le Portfolio de Alexandre Ziba</h1>
+          <p>
+            Je suis un développeur passionné par la création d'expériences web
+            modernes et interactives.
+          </p>
+          <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-164">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,60.27C879.74,90.43,777.6,40.23,674.25,14.05,578.4-9.18,486.19,16.34,391,32.15,288.91,50.34,191.71,56.5,94.23,42.68,40.51,35.07-7.88,20.3-62.92,8V120H1200V0C1144.92,19.36,1070.41,30.11,985.66,60.27Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>Mes compétences</h2>
+        <div class="about-grid">
+          <div class="card">
+            <h3>Front-End</h3>
+            <img
+              src="/images/front-end-svg.webp"
+              alt="Front-End"
+              style="width: 40px"
+              class="svg-comptence"
+            />
+            <p>Je maîtrise HTML, CSS, JavaScript, React.</p>
+          </div>
+          <div class="card">
+            <h3>Back-End</h3>
+            <img
+              src="/images/3667919.png"
+              alt="Back-End"
+              style="width: 40px"
+              class="svg-comptence"
+            />
+            <p>Je maîtrise MongoDB , SQL , NodeJs , Express</p>
+          </div>
+          <div class="card">
+            <h3>Algorithmie et logique</h3>
+            <img
+              src="/images/2172917.png"
+              alt="Front-End"
+              style="width: 40px"
+              class="svg-comptence"
+            />
+            <p>
+              J'ai suivi le programme de MP2I/MPI en informatique, ce qui m'a
+              permis d'acquérir une connaissance approfondie des structures de
+              données. Par ailleurs, grâce à ma licence en mathématiques, j'ai
+              développé une solide expertise en logique.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Optimisation de site web</h3>
+            <p>
+              Je peux optimiser le SEO ainsi que les performances de votre site
+              web afin d'améliorer son référencement sur les moteurs de
+              recherche.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projets avec une grille -->
+    <section id="projects">
+      <div class="container">
+        <h2>Mes Projets</h2>
+        <div class="project-grid">
+          <div class="project">
+            <h3>Développement d'un back-end pour un site de livres</h3>
+            <p>J'ai développé le back-end d'une application en ligne permettant aux utilisateurs de gérer leur collection de livres, d'ajouter des critiques, et de consulter les recommandations basées sur leurs lectures. Le projet a été réalisé avec Node.js, Express, et MongoDB pour gérer les données des utilisateurs, des livres et des interactions.</p>
+            <p><strong>Problématiques rencontrées :</strong> Assurer une gestion efficace des données utilisateur et des critiques, tout en maintenant la performance de l'application. J'ai surmonté cela en implémentant une architecture RESTful et en optimisant les index de la base de données pour des recherches rapides.</p>
+            <p><strong>Compétences développées :</strong> Conception d'API REST, gestion de bases de données NoSQL avec MongoDB, authentification utilisateur avec JWT, et optimisation des requêtes.</p>
+            <a href="https://github.com/monutilisateur/back-end-livre" target="_blank">Voir le code sur GitHub</a>
+          </div>
+          
+          <div class="project">
+            <h3>Booki - Intégration d'un site d'agence de voyage</h3>
+            <p>J'ai réalisé l'intégration d'une maquette pour un site d'agence de voyage nommé Booki en utilisant uniquement HTML et CSS. Ce projet permet aux utilisateurs de rechercher des hébergements et des activités touristiques avec une mise en page responsive adaptée aux différents appareils (ordinateurs, tablettes, mobiles).</p>
+            <p><strong>Problématiques rencontrées :</strong> Adapter la mise en page pour différents formats d'écran et optimiser les performances de chargement des images. J'ai surmonté cela en utilisant des techniques de responsive design comme Flexbox et Grid, et en compressant les images pour améliorer les temps de chargement.</p>
+            <p><strong>Compétences développées :</strong> Maîtrise du responsive design, utilisation de CSS Flexbox et Grid, optimisation des performances web, intégration de maquettes.</p>
+            <a href="https://github.com/monutilisateur/booki-integration" target="_blank">Voir le code sur GitHub</a>
+          </div>
+          
+          <div class="project">
+            <h3>Kasa - Site de location d'appartement</h3>
+            <p>J'ai développé une application web pour la location d'appartements nommée Kasa, utilisant React pour la création d'une interface utilisateur dynamique. Le site permet aux utilisateurs de consulter les annonces d'appartements, de filtrer les résultats selon leurs besoins, et de consulter les détails des propriétés.</p>
+            <p><strong>Problématiques rencontrées :</strong> Gestion de l'état des composants dans une application à plusieurs pages et optimisation du rendu pour assurer une expérience utilisateur fluide. J'ai utilisé React Router pour la navigation et mis en place une gestion centralisée de l'état avec des hooks pour améliorer les performances.</p>
+            <p><strong>Compétences développées :</strong> Développement d'applications React, gestion de l'état avec des hooks, navigation avec React Router, optimisation des performances dans une application Single Page (SPA).</p>
+            <a href="https://github.com/monutilisateur/kasa-location-appartement" target="_blank">Voir le code sur GitHub</a>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container-contact">
+        <h2>Contactez-moi</h2>
+        <p>Email : <a href="mailto:tonemail@example.com"> </a> alexandreziba245@gmail.com</p>
+        <p>Numéro de téléphone : <a href="tel:+1234567890">0778564900</a></p>
+      </div>
+    </section>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
